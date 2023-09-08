@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "topicos em arquiteturas.md",
+                "file": "Linguagens de Programação.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "052a508d09781c5f",
@@ -106,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "topicos em arquiteturas.md",
+                "file": "Linguagens de Programação.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "topicos em arquiteturas.md",
+                "file": "Linguagens de Programação.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "topicos em arquiteturas.md"
+                "file": "Linguagens de Programação.md"
               }
             }
           }
@@ -169,7 +170,11 @@
   },
   "active": "8f396b34857cbc13",
   "lastOpenFiles": [
-    "topicos em arquiteturas.md",
-    "Linguagens de Programação.md"
+    "linguagens-de-programação/legibilidade.md",
+    "Linguagens de Programação.md",
+    "linguagens-de-programação/1.md",
+    "linguagens-de-programação",
+    "1.md",
+    "topicos em arquiteturas.md"
   ]
 }

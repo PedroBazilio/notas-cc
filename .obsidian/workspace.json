@@ -16,31 +16,19 @@
             }
           },
           {
-            "id": "f4bee8ccbd6c668d",
+            "id": "97a27751604ac609",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "topicos em arquiteturas.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8f396b34857cbc13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linguagens de Programação.md",
+                "file": "linguagens-de-programação/ortogonalidade.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguagens de Programação.md",
+                "file": "linguagens-de-programação/ortogonalidade.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguagens de Programação.md",
+                "file": "linguagens-de-programação/ortogonalidade.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagens de Programação.md"
+                "file": "linguagens-de-programação/ortogonalidade.md"
               }
             }
           }
@@ -168,13 +156,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f396b34857cbc13",
+  "active": "97a27751604ac609",
   "lastOpenFiles": [
-    "linguagens-de-programação/legibilidade.md",
     "Linguagens de Programação.md",
+    "linguagens-de-programação/ortogonalidade.md",
+    "linguagens-de-programação/legibilidade.md",
+    "topicos em arquiteturas.md",
     "linguagens-de-programação/1.md",
     "linguagens-de-programação",
-    "1.md",
-    "topicos em arquiteturas.md"
+    "1.md"
   ]
 }

@@ -19,5 +19,14 @@
 9. [Portabilidade](/linguagens-de-programação/portabilidade)
 
 
-### 1 
+Usuarios focam na redigibilidade e facilidade de escrita enquanto projetistas focam no elegancia e a na chance de atrair novos usuarios. Essas características entram em conflito
 
+
+##### [Tradeoffs no Projeto de Linguagens](/linguagens-de-programação/Tradeoffs) 
+
+
+
+##### [Compilação](/linguagens-de-programação/Compilação) 
+
+
+##### [Interpretação](/linguagens-de-programação/interpretação) 

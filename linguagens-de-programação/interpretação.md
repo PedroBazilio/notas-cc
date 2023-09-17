@@ -1,0 +1,2 @@
+
+- Nela os programas são interpretados por outros programas, chamados de interpretadores. O interpretador age como uma simulação em software de uma máquina que ao invés de ler instruções de máquina ela trata instruções de alto nível. Essa simulação em software fornece uma maquina virtual para a linguagem..

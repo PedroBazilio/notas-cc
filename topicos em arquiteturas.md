@@ -12,5 +12,5 @@ BSP -> bulk synchronous parallel
 fracamente acoplada -> embaraçõsamente paralela
 
 
-intancia = maquina virtual
+intancia = maquina virtua
 

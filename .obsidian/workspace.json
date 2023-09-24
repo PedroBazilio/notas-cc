@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "da52e981b5c39e5e",
+        "id": "6d702dcc200374d4",
         "type": "tabs",
         "children": [
           {
-            "id": "b4960193f7d1ca32",
+            "id": "1b3ea5b8a966dc2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linguagens-de-programação/interpretação.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "db8d5a512b2bb72a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linguagens-de-programação/eficiencia.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5c22843c6f295695",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linguagens-de-programação/confiabilidade.md",
+                "file": "Linguagens de Programação.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linguagens-de-programação/interpretação.md",
+                "file": "Linguagens de Programação.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linguagens-de-programação/interpretação.md",
+                "file": "Linguagens de Programação.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linguagens-de-programação/interpretação.md"
+                "file": "Linguagens de Programação.md"
               }
             }
           },
@@ -181,12 +158,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b4960193f7d1ca32",
+  "active": "1b3ea5b8a966dc2a",
   "lastOpenFiles": [
+    "linguagens-de-programação/Tradeoffs.md",
     "Linguagens de Programação.md",
     "linguagens-de-programação/interpretação.md",
+    "scala - seminario.md",
+    "scala.md",
+    "Seminário.md",
+    "Untitled",
     "linguagens-de-programação/Compilação.md",
-    "linguagens-de-programação/Tradeoffs.md",
     "linguagens-de-programação/portabilidade.md",
     "linguagens-de-programação/eficiencia.md",
     "linguagens-de-programação/facilidade-aprendizado.md",
@@ -198,8 +179,6 @@
     "Linguagens.md",
     "linguagens-de-programação/1.md",
     "topicos em arquiteturas.md",
-    "Untitled",
-    "scala - seminario.md",
     "Pasted image 20230912211412.png",
     "Pasted image 20230912205919.png",
     "linguagens-de-programação",

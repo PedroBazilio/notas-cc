@@ -98,8 +98,90 @@ Usuarios focam na redigibilidade e facilidade de escrita enquanto projetistas fo
 
 - **Duas coisas importantes sobre a vinculação são como o tipo é especificado e quando a vinculação ocorre**
 
-###### **Vinculação Estática:** 
+###### **Tipagem Estática:** 
+
 -> é quando ela ocorre antes do tempo de execução e permanece intocada ao longo da execução
 
-###### **Vinculação Dinâmica:** 
--> é quando ocorre em tempo de execução ou pode ser mudada ao longo do curso da execução do programa
+	-> Declaração explícita: ocorre quando o tipo é definido pelo programador na
+	declaração da variável
+
+	-> Declaração implícita: é uma forma de associar tipos por meio de convenções
+	padronizadas ao invés da declaração de tipos por sentença. Neste caso a
+	primeira aparição da variável constitui sua declaração.
+
+  * Declarações implícitas podem ser um problema para a confiabilidade da linguagem pois previnem a compilação de detectar alguns erros de programação e digitação.
+
+###### **Tipagem Dinâmica:** 
+
+-> é quando ocorre em tempo de execução ou pode ser mudada ao longo do curso da execução do programa.
+
+- Neste caso a variável é vinculado a um tipo quando é atribuido um valor a ela numa sentença
+
+- Fornece uma flexibilidade imensa ao programador. Exemplo: um programa que processos dados numéricos pode ser escrito de forma genérica para processar qualquer tipo de dado
+
+
+- **Desvantagens:**
+
+	-> Faz programas serem menos confiáveis, pois diminui a capacidade de detecção de erros do compilador
+
+	-> Outra grande desvantagem é o custo. Pois, o custo para implementar a vinculação de atributos dinâmico, principalmente em tempo de execução. Além disso, cada variável tem que ter um descritor em tempo de execução associado a ela de forma a manter o tipo atual.
+
+
+
+
+##### 2.2.2 Vinculações de armazenamento e tempo de vida:
+
+
+###### Variáveis estáticas
+
+- São vinculadas a células de memória antes da execução do programa e permanecem vinculadas a mesma célula até a finalização do programa
+
+-> **Vantagens:** Eficiências
+-> **Desvantagens:** redução da flexibilidade. não permite que programa tenham funções recursivas. O armazenamento não pode ser compartilhado por variáveis
+
+
+
+
+
+###### Variáveis Dinâmicas de Pilha
+
+
+criada quando sua sentença 
+tipo estáticamente vinculado
+pilha de tempo de execução
+
+
+vantagens: cada cópia de um programa recursivo mantém a sua variável local
+
+desvantagens: sobrecarga em tempo de execução, da alocação e liberação. acesso mais lento e funções que não podem ser sensíveis a histórico
+
+
+
+###### Variáveis dinâmicas do monte explícitas
+
+
+ monte -> heap
+	 -> acesso rápido
+	 -> desorganizado
+acessáveis apenas por ponteiros
+
+**desvantagens:** acesso somente por ponteiros, dificuldade de usá-los. custo de referencias as variáveis e a complexidade do gerenciamento de armazenamento
+
+
+###### Variáveis dinâmicas do monte implícitas
+
+vinculados ao armazenamento no monte somente quando valores são atríbuidos a elas.
+
+Permite flexibilidade, códigos altamente genéricos.
+
+**desvantagens:** sobrecarga em tempo de execução para manter todos os atributos das variáveis, perda de detecção de erros por parte do compilador
+
+
+
+
+
+
+
+
+
+

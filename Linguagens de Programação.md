@@ -183,5 +183,63 @@ Permite flexibilidade, códigos altamente genéricos.
 
 
 
+## Tipos de Dados
 
 
+**Descritor:** é a coleção de atributos de uma variável. Numa implementação, o descritor é área na memória que armazena os atributos de uma variável. 
+ 
+##### 1. Ponto Flutuante
+
+- Modelam números reais, mas representações são aproximações para os valores verdadeiros
+
+- Armazenados em binários, o que agrava o problema
+
+- Perda de precisão em operações. A subtração de números muito próximos pde gerar um numero bem pequeno oq acarreta na perda de numeros significativos
+
+**Float**: é o tamanho padrão, normalmente armazenado em 4 bytes
+**Double:** Normalmente ocupa o dobro do tamanho e fornece o dobro do valor de tipos float.
+
+
+##### 2. Decimal
+
+-> Armazenam um número fixo de digitos, com o ponto decimal em uma posição fixa 
+
+-> Armazenam precisamente valores numa faixa fixa
+
+
+**Desvantagem:** 
+
+	- a faixa de valores é restrita pois não são permitidos expoentes
+	- representação na memória é custosa
+	- Costuma ser um dígito por byte ou até dois dígitos por byte
+
+
+##### Ponteiros
+
+**Atribuir:** é o ato de apontar um ponteiro para um endereço da memória
+
+**Desreferenciar:** é o ato de acessar o valor de uma varíavel
+
+###### Problemas com ponteiros
+
+- **1. Ponteiros Soltos**
+	-> é um ponteiro que contém o endereço de uma variável da heap que já foi liberada
+	![[Pasted image 20230926205211.png]]
+
+	**Solução:** 
+		1. A utilização de *lápides*, nas quais as variaveis da heap possuem uma célula especial, chamada de lápide que é um ponteiro para a variavel. quando uma variavel da heap é liberada, o ponteiro original aponta para a lápide que terá uma valor nulo, resultando assim num erro de acesso. Lápides são caras tanto em tempo quanto de espaço
+		2. Existe *fechaduras e chaves*, que consiste nos ponteiros serem representados por conjuntos de chave valor (chave, endereço), onde a chave é um valor inteiro. Quando variaveis do monte são criadas, valores são associados a elas e a variavel de ponteiro correspondente. cada acesso verifica a chave e se não corresponder dá erro
+		3. **A melhor solução para os ponteiros soltos é tirar a responsabilidade pela liberação de variáveis do programador**
+###### 2. Variáveis da heap perdidas
+	-> São variáveis que não estão mais acessíveis ao usuário.
+	Ex. p1 aponta para a v1, p1 agora aponta para v2. Perdemos v1
+
+
+
+##### Verificação de Tipos
+
+**1. Tipagem Forte**
+	-> é quando erros de tipo são sempre detectados
+	-> não permite operações entre diferentes tipos sem antes realizar uma conversão explícita
+	-> a coerção de tipos acarreta na perda da detecção de erros
+	-> erros de tipo geralmente resultam em erros em tempo de compilação

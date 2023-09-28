@@ -243,3 +243,32 @@ Permite flexibilidade, códigos altamente genéricos.
 	-> não permite operações entre diferentes tipos sem antes realizar uma conversão explícita
 	-> a coerção de tipos acarreta na perda da detecção de erros
 	-> erros de tipo geralmente resultam em erros em tempo de compilação
+
+- A coerção faz linguagens de tipagem forte perderem a verificação de erros.
+
+
+
+
+### Expressões e Sentenças de Atribuição
+
+
+#### Efeitos Colaterais
+
+	-> Acontece quando uma função modifica um de seus parametros ou uma variavel
+	global 
+	a = 10
+	b = a + fun(a)
+
+-> Alargamento de inteiro para float é de alargamento mas pode vir a perder precisão pois o tipo float tem cerca de 7 bits de precisão, enquanto o tipo inteiro tem 9 dígitos.
+
+#### Avaliação em curto-circuito
+
+alguma multiplicação por zero
+(13 * a) * (a + 2 + b)
+
+alguma verificação AND
+
+(a >= 0) && (b < 10)
+
+possível erro caso n tenha curto-circuito
+![[Pasted image 20230927204250.png]]
